@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(white, blue);
+    margin: none;
+    padding: 1em;
+    background-size: auto;
+    height: auto;
+}
+
+ul {
+    line-height: 2;
+}
+
+header {
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid;
+    margin: 25px;
+    background: linear-gradient(rgb(22, 22, 243),rgb(122, 120, 120) );
+    color: black;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin-left: 1em;
+    font-size: 1.5em;
+    height: auto;
+    padding: auto;
+}
+
+a :hover {
+    color: whitesmoke;
+}
+
+button {
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    padding: auto;
+    text-align: center;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 10px;
+}
+
+h1, h2, h3 {
+    font-size: 2em;
+    font-family: Crimson-text;
+}
